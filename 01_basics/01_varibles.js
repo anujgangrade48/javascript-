@@ -1,25 +1,13 @@
-"use strict" // treat all js code as newer version (esse new version ko treat krne ke liye kiya jata hai )
+const accountId = 125333
+let accountEmail = "anuj@gangrade.com"
+var accountPassword = "12345"
+accountCtiy = "Indore" //not right processe
+let accountState; // this value undifind 
 
-//alert(3+3) // we are using browser not use NodeJs && this code Error ReferenceError: alert is not defined
+// accountId = 2  // not allowd & type Error show 
+accountEmail = "hello@anuj"  // this allowd 
+accountPassword = "564552"
+accountCtiy =  "Bhopal"
 
-let name = "Anuj" //string type
-let age = 22 // number type
-let isLoggesIn = false  // boleaon
-let state = null
-let city
-
-//premitive data type---
-// number => 2 to power 53 
-// bigint
-// string => ""
-// boolean => true/false
-// null => standalone value 
-// undifind =>
-// symbol => unique 
-
-// Object
-
-console.log(typeof state); // object
-console.log(typeof city); // undefined
-
-
+console.log(accountEmail); 
+console.table([accountId , accountEmail , accountPassword , accountCtiy ]) // table sturcture ---
