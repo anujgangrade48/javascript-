@@ -8,6 +8,7 @@ let isLoggesIn = false  // boleaon
 let state = null
 let city
 
+
 //premitive data type---
 // number => 2 to power 53 
 // bigint
